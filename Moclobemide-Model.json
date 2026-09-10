@@ -8926,6 +8926,77 @@
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
         }
+      ],
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Moclobemide simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Yu2001.Asian.Moclobemide.300.po.sd.EM"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Yu2001.Asian.Moclobemide.300.po.sd.EM-Moclobemide-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Moclobemide\n300mg po asian popSim\n2020-06-17 20:13"
+        }
       ]
     },
     {
@@ -11794,6 +11865,77 @@
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Moclobemide simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Yu2001.Asian.Moclobemide.300.po.sd.PM"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Yu2001.Asian.Moclobemide.300.po.sd.PM-Moclobemide-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Yu2001.Asian.Moclobemide.300.po.sd.PM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Moclobemide\n300mg po asian PM popSim\n2020-06-17 20:16"
         }
       ]
     }
@@ -15939,5 +16081,6 @@
         "Unit": "h"
       }
     }
-  ]
+  ],
+  "ApplicationName": "PK-Sim"
 }
