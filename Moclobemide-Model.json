@@ -1063,12 +1063,170 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "50mg iv|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.1",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.1|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.1|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.2",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.2|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.2|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.3",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.3|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.3|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.4",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.4|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.4|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.5",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.5|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.5|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.6",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.6|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID.6|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_1",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_1|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_1|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_2",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_2|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_2|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_3",
+              "X": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_3|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.iv_inf_2min.sd.PatID_3|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "50 mg moclobemide iv",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "50 mg moclobemide iv",
+          "OriginText": "Moclobemide\n50mg iv\n2020-06-18 10:33"
         }
       ]
     },
@@ -1172,12 +1330,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "150mg iv 20min|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubjec",
+              "X": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide iv 20min",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide iv 20min",
+          "OriginText": "Moclobemide\n150mg iv 20min\n2020-06-18 10:32"
         }
       ]
     },
@@ -1284,12 +1513,83 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po asian PM|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yu2001.Asian.Moclobemide.300.po.sd.PM",
+              "X": "Yu2001.Asian.Moclobemide.300.po.sd.PM|Time",
+              "Y": "Yu2001.Asian.Moclobemide.300.po.sd.PM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po asian PM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po asian PM",
+          "OriginText": "Moclobemide\n300mg po asian PM\n2020-06-18 10:35"
         }
       ]
     },
@@ -1402,12 +1702,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po PM|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Gram1995.Moclobemide.300.po.sd.PM",
+              "X": "Gram1995.Moclobemide.300.po.sd.PM|Time",
+              "Y": "Gram1995.Moclobemide.300.po.sd.PM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po PM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po PM",
+          "OriginText": "Moclobemide\n300mg po PM\n2020-06-18 10:34"
         }
       ]
     },
@@ -1612,12 +1982,84 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 7.0,
+              "Max": 8.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po PM 7d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Gram1995.Moclobemide.300.po.bid.PM",
+              "X": "Gram1995.Moclobemide.300.po.bid.PM|Time",
+              "Y": "Gram1995.Moclobemide.300.po.bid.PM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po PM 7d",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po PM 7d",
+          "OriginText": "Moclobemide\n300mg po PM 7d\n2020-06-18 10:34"
         }
       ]
     },
@@ -1835,12 +2277,181 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "50mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Wiesel1985.Moclobemid.50.po.sd.repPat",
+              "X": "Wiesel1985.Moclobemid.50.po.sd.repPat|Time",
+              "Y": "Wiesel1985.Moclobemid.50.po.sd.repPat|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.1",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.1|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.1|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.2",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.2|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.2|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.3",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.3|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.3|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.4",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.4|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.4|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.5",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.5|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.5|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID.6",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID.6|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID.6|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID_1",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID_1|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID_1|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID_2",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID_2|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID_2|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Raaflaub1984.Moclobemide.50.po.sd.PatID_3",
+              "X": "Raaflaub1984.Moclobemide.50.po.sd.PatID_3|Time",
+              "Y": "Raaflaub1984.Moclobemide.50.po.sd.PatID_3|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "50 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "50 mg moclobemide po",
+          "OriginText": "Moclobemide\n50mg po\n2020-06-18 10:33"
         }
       ]
     },
@@ -1956,12 +2567,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "100mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Wiesel1985.Moclobemid.100.po.sd.repPat",
+              "X": "Wiesel1985.Moclobemid.100.po.sd.repPat|Time",
+              "Y": "Wiesel1985.Moclobemid.100.po.sd.repPat|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "100 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "100 mg moclobemide po",
+          "OriginText": "Moclobemide\n100mg po\n2020-06-18 10:28"
         }
       ]
     },
@@ -2083,12 +2764,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "200mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Wiesel1985.Moclobemid.200.po.sd.repPat",
+              "X": "Wiesel1985.Moclobemid.200.po.sd.repPat|Time",
+              "Y": "Wiesel1985.Moclobemid.200.po.sd.repPat|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "200 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "200 mg moclobemide po",
+          "OriginText": "Moclobemide\n200mg po\n2020-06-18 10:35"
         }
       ]
     },
@@ -2504,12 +3255,130 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 6.5,
+              "Max": 22.5,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 9.731866,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "150mg po 14d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubject",
+              "X": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day1.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day24.RepSubject",
+              "X": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day24.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.150.iv_inf_20min.sd.day24.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.100.po.tid.day15.RepSubject",
+              "X": "Schoerlin1987.Moclobemide.100.po.tid.day15.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.100.po.tid.day15.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.100.po.tid.day22.RepSubjec",
+              "X": "Schoerlin1987.Moclobemide.100.po.tid.day22.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.100.po.tid.day22.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schoerlin1987.Moclobemide.100.po.tid.day8.RepSubject",
+              "X": "Schoerlin1987.Moclobemide.100.po.tid.day8.RepSubject|Time",
+              "Y": "Schoerlin1987.Moclobemide.100.po.tid.day8.RepSubject|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po 14d",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po 14d",
+          "OriginText": "Moclobemide\n150mg po 7d\n2020-06-17 18:38"
         }
       ]
     },
@@ -2667,12 +3536,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "150mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Guentert1990.Moclobemide.150.po.tid.repPat.Day1",
+              "X": "Guentert1990.Moclobemide.150.po.tid.repPat.Day1|Time",
+              "Y": "Guentert1990.Moclobemide.150.po.tid.repPat.Day1|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po",
+          "OriginText": "Moclobemide\n150mg po\n2020-06-17 18:43"
         }
       ]
     },
@@ -2782,12 +3721,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Gram1995.Moclobemide.300.po.sd.EM",
+              "X": "Gram1995.Moclobemide.300.po.sd.EM|Time",
+              "Y": "Gram1995.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po",
+          "OriginText": "Moclobemide\n300mg po\n2020-06-17 18:52"
         }
       ]
     },
@@ -2903,12 +3912,82 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po asian|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM",
+              "X": "Yu2001.Asian.Moclobemide.300.po.sd.EM|Time",
+              "Y": "Yu2001.Asian.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po asian",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po asian",
+          "OriginText": "Moclobemide\n300mg po asian\n2020-06-17 18:55"
         }
       ]
     },
@@ -3024,12 +4103,81 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide predicted",
+              "X": "Time",
+              "Y": "300mg po pred|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dingermanse1998.Moclobemide.300.po.sd",
+              "X": "Dingermanse1998.Moclobemide.300.po.sd|Time",
+              "Y": "Dingermanse1998.Moclobemide.300.po.sd|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Moclobemide\n300mg po pred\n2020-06-17 18:59"
         }
       ]
     },
@@ -3247,12 +4395,86 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 7.0,
+              "Max": 8.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 12.96545,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide simulated",
+              "X": "Time",
+              "Y": "300mg po 7d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Gram1995.Moclobemide.300.po.bid.EM-Moclobemide",
+              "X": "Gram1995.Moclobemide.300.po.bid.EM|Time",
+              "Y": "Gram1995.Moclobemide.300.po.bid.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "300 mg moclobemide po 7d",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "300 mg moclobemide po 7d",
+          "OriginText": "Moclobemide\n300mg po 7d\n2020-06-17 19:02"
         }
       ]
     },
@@ -3888,12 +5110,158 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 27.0,
+              "Max": 28.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 8.257126,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide predicted",
+              "X": "Time",
+              "Y": "150mg po 28d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ignjatovic2009.Moclobemide.150.po.tid.day28",
+              "X": "Ignjatovic2009.Moclobemide.150.po.tid.day28|Time",
+              "Y": "Ignjatovic2009.Moclobemide.150.po.tid.day28|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po day28",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po day28",
+          "OriginText": "Moclobemide\n150mg po 28d\n2020-06-17 19:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 13.0,
+              "Max": 14.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 8.257126,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide predicted",
+              "X": "Time",
+              "Y": "150mg po 28d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ignjatovic2009.Moclobemide.150.po.tid.day14",
+              "X": "Ignjatovic2009.Moclobemide.150.po.tid.day14|Time",
+              "Y": "Ignjatovic2009.Moclobemide.150.po.tid.day14|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po day14",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po day14",
+          "OriginText": "Moclobemide\n150mg po 28d\n2020-08-05 16:26"
         }
       ]
     },
@@ -4529,12 +5897,158 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
           "MoleculeName": "CYP2C19",
           "CompoundName": "Moclobemide"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 13.0,
+              "Max": 14.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 9.853181,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide predicted",
+              "X": "Time",
+              "Y": "150mg po female 28d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ignjatovic2009.Moclobemide.150.po.tid.day14",
+              "X": "Ignjatovic2009.Moclobemide.150.po.tid.day14|Time",
+              "Y": "Ignjatovic2009.Moclobemide.150.po.tid.day14|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po female day14",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po female day14",
+          "OriginText": "Moclobemide\n150mg po female 28d\n2020-06-17 19:54"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "day(s)",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 27.0,
+              "Max": 28.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 9.853181,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide predicted",
+              "X": "Time",
+              "Y": "150mg po female 28d|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ignjatovic2009.Moclobemide.150.po.tid.day28",
+              "X": "Ignjatovic2009.Moclobemide.150.po.tid.day28|Time",
+              "Y": "Ignjatovic2009.Moclobemide.150.po.tid.day28|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "150 mg moclobemide po female day28",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "150 mg moclobemide po female day28",
+          "OriginText": "Moclobemide\n150mg po female 28d\n2020-06-17 20:01"
         }
       ]
     },
@@ -7405,7 +8919,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
@@ -10274,7 +11788,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP2C19-TimeDep_AutoInh-fit",
