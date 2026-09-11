@@ -1,6 +1,7 @@
 {
   "Name": "Moclobemide-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -16081,6 +16082,5 @@
         "Unit": "h"
       }
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
